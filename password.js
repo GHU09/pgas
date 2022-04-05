@@ -1,9 +1,15 @@
-<SCRIPT language="JavaScript">
-var password; 
-var pass1="W8w00rd!"; 
-password=prompt('Enter Password',' '); 
-if (password==pass1) 
-alert('Correct Password! Click OK to Enter!'); 
-else { window.location="http://https://.github.io/"; 
-} 
-</SCRIPT>
+var password = "demo";
+
+(function promptPass() {
+
+  var psw = prompt("Enter your Password");
+
+  while (psw !== password) {
+    alert("Incorrect Password");
+    return promptPass();
+  }
+
+}());
+
+
+alert('WELCOME');
