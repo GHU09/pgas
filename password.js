@@ -1,15 +1,9 @@
-var password = "W8w00rd";
+var userResponse = "N/A";
 
-(function promptPass() {
-
-  var psw = prompt("Enter your Password");
-
-  while (psw !== password) {
-    alert("Incorrect Password");
-    return promptPass();
-  }
-
-}());
-
-
-alert('WELCOME');
+function askPass() {
+    "use strict";
+    userResponse = prompt("What's the password?", "000000");
+    if (userResponse === "SpeculAcessPls") {
+        window.open("www.link.com");
+    }
+}
