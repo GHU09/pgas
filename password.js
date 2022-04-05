@@ -2,8 +2,8 @@ var userResponse = "N/A";
 
 function askPass() {
     "use strict";
-    userResponse = prompt("What's the password?", "000000");
+    userResponse = prompt("What's the password?", "testv1");
     if (userResponse === "SpeculAcessPls") {
-        window.open("www.link.com");
+        window.open("https://ghu09.github.io/pgas/");
     }
 }
