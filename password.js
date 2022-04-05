@@ -1,4 +1,4 @@
-var password = "demo";
+var password = "W8w00rd";
 
 (function promptPass() {
 
